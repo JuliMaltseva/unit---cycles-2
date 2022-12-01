@@ -15,11 +15,7 @@ public class Main {
         i++;
        System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
     }
-<<<<<<< HEAD
        System.out.println("Для того чтобы накопить сумму - 2 459 000 рублей, понадобится " + i + " месяцев");
-=======
-       System.out.println("Для того чтобы накопить сумму - 2 459 000 рублей, на понадобиться " + i + " месяцев");
->>>>>>> origin/task_2
 
 //Задача 2
     System.out.println("Задача 2");
@@ -32,11 +28,10 @@ public class Main {
     for (int m = 10; m >= 1; m--){
         System.out.print(m + " ");
     };
-<<<<<<< HEAD
 
 //Задача 3
-        System.out.println();
-        System.out.println("Задача 3");
+    System.out.println();
+    System.out.println("Задача 3");
     int initialPopulation = 12_000_000;
     float birthrate = 17 / 1000f;
     float mortality = 8 / 1000f;
@@ -52,9 +47,9 @@ public class Main {
     }
 
 //Домашнее задание 2
-        System.out.println("Домашнее задание 2");
+    System.out.println("Домашнее задание 2");
 //Задача 1
-        System.out.println("Задача 1");
+    System.out.println("Задача 1");
         int depositVasya = 15_000;
         int totalVasya = 0;
         int iVasya = 0;
@@ -67,7 +62,7 @@ public class Main {
         System.out.println("Для того чтобы накопить сумму - 12 000 000 рублей, понадобится " + iVasya + " месяцев");
 
 //Задача 2
-        System.out.println("Задача 2");
+    System.out.println("Задача 2");
         int depositVasya2 = 15_000;
         int totalVasya2 = 0;
         int iVasya2 = 0;
@@ -101,9 +96,9 @@ public class Main {
     }
 
 //Домашнее задание 3
-        System.out.println("Домашнее задание 3");
-        //Задача 1
-        System.out.println("Задача 1");
+    System.out.println("Домашнее задание 3");
+//Задача 1
+    System.out.println("Задача 1");
     int cometYear = 0;
     int thisYear = 2022;
     int yearsAgo = thisYear - 200;
@@ -114,7 +109,7 @@ public class Main {
         }
     }
 
-        //Задача 2
+    //Задача 2
         System.out.println("Задача 2");
     int x = 0;
     int b = 2;
@@ -122,6 +117,5 @@ public class Main {
             x = b * a;
         System.out.println(b + " * " + a + " = " + x);
     }
-
     }
 }
